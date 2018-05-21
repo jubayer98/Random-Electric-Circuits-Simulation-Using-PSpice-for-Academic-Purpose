@@ -1,0 +1,100 @@
+
+**** 03/12/16 02:19:17 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab 5"  [ F:\GROUP IV\LAB 5\Exp 5-PSpiceFiles\SCHEMATIC1\lab 5.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab 5.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Jubayer\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP 5
+V_Va1         N00099 0 5Vdc
+R_Ra1         N00099 N00106  1k TC=0,0 
+R_Ra2         N00106 0  3.3k TC=0,0 
+R_Ra3         0 N00106  4.7k TC=0,0 
+R_R6         0 N00504  4.7k TC=0,0 
+R_R4         0 N00504  1k TC=0,0 
+R_R5         N00504 N00508  3.3k TC=0,0 
+R_Rc2         N00769 N00773  3.3k TC=0,0 
+R_Rc3         0 N00769  4.7k TC=0,0 
+R_Rc1         N00761 N00769  1k TC=0,0 
+V_Vc1         N00761 0 5Vdc
+V_Vb2         N00508 0 8Vdc
+V_Vc2         N00773 0 8Vdc
+
+**** RESUMING "lab 5.cir" ****
+.END
+
+**** 03/12/16 02:19:17 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab 5"  [ F:\GROUP IV\LAB 5\Exp 5-PSpiceFiles\SCHEMATIC1\lab 5.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00099)    5.0000 (N00106)    3.2986 (N00504)    1.5993 (N00508)    8.0000     
+
+(N00761)    5.0000 (N00769)    4.8979 (N00773)    8.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Va1       -1.701E-03
+    V_Vc1       -1.021E-04
+    V_Vb2       -1.940E-03
+    V_Vc2       -9.400E-04
+
+    TOTAL POWER DISSIPATION   3.21E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/12/16 02:19:17 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab 5"  [ F:\GROUP IV\LAB 5\Exp 5-PSpiceFiles\SCHEMATIC1\lab 5.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

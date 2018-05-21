@@ -1,0 +1,53 @@
+
+**** 03/20/16 22:48:04 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-0000101"  [ C:\Users\Jubayer\Desktop\EEE Complete Project\Group IV\Lab 6\Exp 6-PSpiceFiles\SCHEMATIC1\000010
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "0000101.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Jubayer\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP 6
+V_V1         N00157 0 10Vdc
+V_V2         N00172 0 5Vdc
+R_R3         N00168 N00172  33k TC=0,0 
+R_R1         N00157 A  10k TC=0,0 
+R_R2         A N00168  1k TC=0,0 
+R_R4         0 A  22k TC=0,0 
+R_R5         0 N00168  47k TC=0,0 
+V_Vth         = Voc N00946 0 7.5Vdc
+-----------------------------$
+ERROR -- Expecting keyword STIMULUS, saw 7.5Vdc.
+
+R_Rth         N00946 N00953  6.65k TC=0,0 
+R_RtL         0 N00953  5.2k TC=0,0 
+I_I2         0 N01088 DC 1.13Adc  
+R_RN         0 N01088  6.65k TC=0,0 
+R_RnL         0 N01088  5.2k TC=0,0 
+
+**** RESUMING 0000101.cir ****
+.END
+

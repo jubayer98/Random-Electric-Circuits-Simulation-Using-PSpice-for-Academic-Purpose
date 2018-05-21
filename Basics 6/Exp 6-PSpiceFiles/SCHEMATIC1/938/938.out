@@ -1,0 +1,89 @@
+
+**** 03/14/16 13:52:03 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-938"  [ F:\EEE141\GROUP IV\LAB 6\Exp 6-PSpiceFiles\SCHEMATIC1\938.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "938.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Jubayer\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP 6
+V_V1         N00157 0 10Vdc
+V_V2         N00172 0 5Vdc
+R_R3         N00168 N00172  33k TC=0,0 
+R_R1         N00157 A  10k TC=0,0 
+R_R2         A N00168  1k TC=0,0 
+R_R4         0 A  22k TC=0,0 
+R_R5         0 N00168  47k TC=0,0 
+
+**** RESUMING 938.cir ****
+.END
+
+**** 03/14/16 13:52:03 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-938"  [ F:\EEE141\GROUP IV\LAB 6\Exp 6-PSpiceFiles\SCHEMATIC1\938.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)    5.8821  (N00157)   10.0000 (N00168)    5.7376 (N00172)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.118E-04
+    V_V2         2.235E-05
+
+    TOTAL POWER DISSIPATION   4.01E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/14/16 13:52:03 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-938"  [ F:\EEE141\GROUP IV\LAB 6\Exp 6-PSpiceFiles\SCHEMATIC1\938.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

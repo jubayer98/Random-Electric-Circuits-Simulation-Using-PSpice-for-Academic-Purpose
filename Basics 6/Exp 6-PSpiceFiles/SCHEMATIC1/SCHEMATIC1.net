@@ -1,0 +1,8 @@
+* source EXP 6
+R_R1         0 N02104  47k TC=0,0 
+R_R2         N02093 N02100  10k TC=0,0 
+R_R3         N02100 N02104  1k TC=0,0 
+R_R4         N02104 N02108  33k TC=0,0 
+R_RL         0 N02100  22k TC=0,0 
+V_V1         N02093 0 10Vdc
+V_V2         N02108 0 5Vdc

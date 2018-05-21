@@ -1,0 +1,9 @@
+.ALIASES
+R_R1            R1(1=0 2=N02104 ) CN @EXP 6.SCHEMATIC1(sch_1):INS1972@ANALOG.R.Normal(chips)
+R_R2            R2(1=N02093 2=N02100 ) CN @EXP 6.SCHEMATIC1(sch_1):INS1988@ANALOG.R.Normal(chips)
+R_R3            R3(1=N02100 2=N02104 ) CN @EXP 6.SCHEMATIC1(sch_1):INS2004@ANALOG.R.Normal(chips)
+R_R4            R4(1=N02104 2=N02108 ) CN @EXP 6.SCHEMATIC1(sch_1):INS2020@ANALOG.R.Normal(chips)
+R_RL            RL(1=0 2=N02100 ) CN @EXP 6.SCHEMATIC1(sch_1):INS2036@ANALOG.R.Normal(chips)
+V_V1            V1(+=N02093 -=0 ) CN @EXP 6.SCHEMATIC1(sch_1):INS2061@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=N02108 -=0 ) CN @EXP 6.SCHEMATIC1(sch_1):INS2077@SOURCE.VDC.Normal(chips)
+.ENDALIASES

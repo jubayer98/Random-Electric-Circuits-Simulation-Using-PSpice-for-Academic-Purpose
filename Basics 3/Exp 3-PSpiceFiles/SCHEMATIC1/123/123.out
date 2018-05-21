@@ -1,0 +1,92 @@
+
+**** 03/14/16 13:32:38 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-123"  [ F:\eee141\Group IV\Lab 3\Exp 3-PSpiceFiles\SCHEMATIC1\123.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "123.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Jubayer\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP 3
+V_Va1         A 0 9Vdc
+V_Vb1         N00335 0 9Vdc
+R_Ra1         B A  0.56k TC=0,0 
+R_Ra2         C B  0.56k TC=0,0 
+R_Ra3         0 C  0.56k TC=0,0 
+R_Rb2         C B  0.56k TC=0,0 
+R_Rb3         0 C  0.56k TC=0,0 
+R_Rb1         B N00335  0.56k TC=0,0 
+R_Rb4         C 0 {10k*0.5+.001}
+
+**** RESUMING 123.cir ****
+.END
+
+**** 03/14/16 13:32:38 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-123"  [ F:\eee141\Group IV\Lab 3\Exp 3-PSpiceFiles\SCHEMATIC1\123.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)    9.0000  (    B)    5.9460  (    C)    2.8920  (N00335)    9.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Va1       -5.454E-03
+    V_Vb1       -5.454E-03
+
+    TOTAL POWER DISSIPATION   9.82E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/14/16 13:32:38 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-123"  [ F:\eee141\Group IV\Lab 3\Exp 3-PSpiceFiles\SCHEMATIC1\123.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

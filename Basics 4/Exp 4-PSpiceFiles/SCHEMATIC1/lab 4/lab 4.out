@@ -1,0 +1,98 @@
+
+**** 03/12/16 02:05:33 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab 4"  [ F:\GROUP IV\LAB 4\Exp 4-PSpiceFiles\SCHEMATIC1\lab 4.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab 4.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Jubayer\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP 4
+R_Ra5         N00179 N00186  1k TC=0,0 
+R_Ra1         N00186 N00190  15k TC=0,0 
+R_Ra3         N00190 0  10k TC=0,0 
+R_Ra4         N00186 N00190  3.3k TC=0,0 
+V_Vin         N00179 0 10Vdc
+R_Ra2         N00190 0 {10k*0.5+.001}
+R_Rb4         N00913 A  1k TC=0,0 
+R_Rb_a         A C  10k TC=0,0 
+R_Rb5         A N00946  2.2k TC=0,0 
+R_Rb_b         0 A  18k TC=0,0 
+R_Rb_c         0 N00946  22k TC=0,0 
+R_Rb6         0 C  3.3k TC=0,0 
+V_V1         N00913 0 10Vdc
+
+**** RESUMING "lab 4.cir" ****
+.END
+
+**** 03/12/16 02:05:33 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab 4"  [ F:\GROUP IV\LAB 4\Exp 4-PSpiceFiles\SCHEMATIC1\lab 4.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)    8.5319  (    C)    2.1169  (N00179)   10.0000 (N00186)    8.5792     
+
+(N00190)    4.7360 (N00913)   10.0000 (N00946)    7.7563 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vin       -1.421E-03
+    V_V1        -1.468E-03
+
+    TOTAL POWER DISSIPATION   2.89E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/12/16 02:05:33 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab 4"  [ F:\GROUP IV\LAB 4\Exp 4-PSpiceFiles\SCHEMATIC1\lab 4.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

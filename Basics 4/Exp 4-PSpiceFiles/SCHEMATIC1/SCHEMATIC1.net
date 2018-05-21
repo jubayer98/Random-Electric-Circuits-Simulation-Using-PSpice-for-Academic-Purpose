@@ -1,0 +1,14 @@
+* source EXP 4
+R_Ra5         N00179 N00186  1k TC=0,0 
+R_Ra1         N00186 N00190  15k TC=0,0 
+R_Ra3         N00190 0  10k TC=0,0 
+R_Ra4         N00186 N00190  3.3k TC=0,0 
+V_Vin         N00179 0 10Vdc
+R_Ra2         N00190 0 {10k*0.5+.001}
+R_Rb4         N00913 A  1k TC=0,0 
+R_Rb_a         A C  10k TC=0,0 
+R_Rb5         A N00946  2.2k TC=0,0 
+R_Rb_b         0 A  18k TC=0,0 
+R_Rb_c         0 N00946  22k TC=0,0 
+R_Rb6         0 C  3.3k TC=0,0 
+V_V1         N00913 0 10Vdc

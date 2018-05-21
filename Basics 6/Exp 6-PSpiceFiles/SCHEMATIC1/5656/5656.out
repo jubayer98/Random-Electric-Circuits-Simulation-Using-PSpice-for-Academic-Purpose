@@ -1,0 +1,90 @@
+
+**** 03/20/16 23:14:39 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-5656"  [ C:\Users\Jubayer\Desktop\EEE Complete Project\Group IV\Lab 6\Exp 6-PSpiceFiles\SCHEMATIC1\5656.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "5656.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Jubayer\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP 6
+R_R1         0 N02104  47k TC=0,0 
+R_R2         N02093 N02100  10k TC=0,0 
+R_R3         N02100 N02104  1k TC=0,0 
+R_R4         N02104 N02108  33k TC=0,0 
+R_RL         0 N02100  22k TC=0,0 
+V_V1         N02093 0 10Vdc
+V_V2         N02108 0 5Vdc
+
+**** RESUMING 5656.cir ****
+.END
+
+**** 03/20/16 23:14:39 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-5656"  [ C:\Users\Jubayer\Desktop\EEE Complete Project\Group IV\Lab 6\Exp 6-PSpiceFiles\SCHEMATIC1\5656.sim 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02093)   10.0000 (N02100)    5.8821 (N02104)    5.7376 (N02108)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.118E-04
+    V_V2         2.235E-05
+
+    TOTAL POWER DISSIPATION   4.01E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/20/16 23:14:39 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-5656"  [ C:\Users\Jubayer\Desktop\EEE Complete Project\Group IV\Lab 6\Exp 6-PSpiceFiles\SCHEMATIC1\5656.sim 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

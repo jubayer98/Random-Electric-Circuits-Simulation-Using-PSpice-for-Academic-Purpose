@@ -1,0 +1,36 @@
+* source EXP 2
+V_Ea         N00259 0 10Vdc
+V_Eb         N00296 0 10Vdc
+V_Ec         N00331 0 10Vdc
+V_Ed         N00361 0 10Vdc
+R_Ra1         N00259 0  1k TC=0,0 
+R_Rb1         N00296 N00303  1k TC=0,0 
+R_Rc1         N00331 N00338  1k TC=0,0 
+R_Rd1         N00361 N00368  1k TC=0,0 
+R_Rb2         0 N00303  1k TC=0,0 
+R_Rc2         N00345 N00338  1k TC=0,0 
+R_Rc3         0 N00345  1k TC=0,0 
+R_Rd2         N00375 N00368  1k TC=0,0 
+R_Rd3         N00379 N00375  3.3k TC=0,0 
+R_Rd4         N00379 0  4.7k TC=0,0 
+R_Rm1         0 N01782  1k TC=0,0 
+R_Rn1         0 N01882  1k TC=0,0 
+R_Rn2         0 N01882  1k TC=0,0 
+R_Ro1         0 N01942  1k TC=0,0 
+R_Ro2         0 N01942  1k TC=0,0 
+R_Ro3         0 N01942  3.3k TC=0,0 
+R_Rp1         0 N02028  1k TC=0,0 
+R_Rp2         0 N02028  1k TC=0,0 
+R_Rp3         0 N02028  3.3k TC=0,0 
+V_Em         N01782 0 10Vdc
+V_En         N01882 0 10Vdc
+V_Eo         N01942 0 10Vdc
+V_Ep         N02028 0 10Vdc
+R_Rp4         0 N02028  4.7k TC=0,0 
+V_E         N13096 0 12Vdc
+R_R2         0 N13103  10k TC=0,0 
+R_R4         0 N13107  3.3k TC=0,0 
+R_R6         0 N13111  1k TC=0,0 
+R_R1         N13103 N13096  1k TC=0,0 
+R_R3         N13107 N13103  4.7k TC=0,0 
+R_R5         N13111 N13107  1k TC=0,0 

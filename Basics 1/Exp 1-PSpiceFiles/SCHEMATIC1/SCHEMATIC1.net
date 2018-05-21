@@ -1,0 +1,7 @@
+* source EXP 1
+V_V         N00067 0 10Vdc
+R_R         0 N00067  3.3k TC=0,0 
+R_R2         N00347 N00343  4.7k TC=0,0 
+R_R3         0 N00347  5.6k TC=0,0 
+R_R1         N00343 N00331  3.3k TC=0,0 
+V_Vs         N00331 0 15Vdc

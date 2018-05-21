@@ -1,0 +1,10 @@
+* source EXP 3
+V_Va1         A 0 9Vdc
+V_Vb1         N00335 0 9Vdc
+R_Ra1         B A  0.56k TC=0,0 
+R_Ra2         C B  0.56k TC=0,0 
+R_Ra3         0 C  0.56k TC=0,0 
+R_Rb2         C B  0.56k TC=0,0 
+R_Rb3         0 C  0.56k TC=0,0 
+R_Rb1         B N00335  0.56k TC=0,0 
+R_Rb4         C 0 {10k*0.5+.001}

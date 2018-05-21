@@ -1,0 +1,14 @@
+* source EXP 5
+V_Va1         N00099 0 5Vdc
+R_Ra1         N00099 N00106  1k TC=0,0 
+R_Ra2         N00106 0  3.3k TC=0,0 
+R_Ra3         0 N00106  4.7k TC=0,0 
+R_R6         0 N00504  4.7k TC=0,0 
+R_R4         0 N00504  1k TC=0,0 
+R_R5         N00504 N00508  3.3k TC=0,0 
+R_Rc2         N00769 N00773  3.3k TC=0,0 
+R_Rc3         0 N00769  4.7k TC=0,0 
+R_Rc1         N00761 N00769  1k TC=0,0 
+V_Vc1         N00761 0 5Vdc
+V_Vb2         N00508 0 8Vdc
+V_Vc2         N00773 0 8Vdc

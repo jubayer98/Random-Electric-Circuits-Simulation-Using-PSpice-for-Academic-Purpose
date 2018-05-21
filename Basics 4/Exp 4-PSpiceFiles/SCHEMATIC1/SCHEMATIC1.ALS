@@ -1,0 +1,18 @@
+.ALIASES
+R_Ra5           Ra5(1=N00179 2=N00186 ) CN @EXP 4.SCHEMATIC1(sch_1):INS51@ANALOG.R.Normal(chips)
+R_Ra1           Ra1(1=N00186 2=N00190 ) CN @EXP 4.SCHEMATIC1(sch_1):INS67@ANALOG.R.Normal(chips)
+R_Ra3           Ra3(1=N00190 2=0 ) CN @EXP 4.SCHEMATIC1(sch_1):INS83@ANALOG.R.Normal(chips)
+R_Ra4           Ra4(1=N00186 2=N00190 ) CN @EXP 4.SCHEMATIC1(sch_1):INS99@ANALOG.R.Normal(chips)
+V_Vin           Vin(+=N00179 -=0 ) CN @EXP 4.SCHEMATIC1(sch_1):INS124@SOURCE.VDC.Normal(chips)
+R_Ra2           Ra2(1=N00190 2=0 ) CN @EXP 4.SCHEMATIC1(sch_1):INS149@ANALOG.R_var.Normal(chips)
+R_Rb4           Rb4(1=N00913 2=A ) CN @EXP 4.SCHEMATIC1(sch_1):INS766@ANALOG.R.Normal(chips)
+R_Rb_a          Rb_a(1=A 2=C ) CN @EXP 4.SCHEMATIC1(sch_1):INS782@ANALOG.R.Normal(chips)
+R_Rb5           Rb5(1=A 2=N00946 ) CN @EXP 4.SCHEMATIC1(sch_1):INS798@ANALOG.R.Normal(chips)
+R_Rb_b          Rb_b(1=0 2=A ) CN @EXP 4.SCHEMATIC1(sch_1):INS814@ANALOG.R.Normal(chips)
+R_Rb_c          Rb_c(1=0 2=N00946 ) CN @EXP 4.SCHEMATIC1(sch_1):INS830@ANALOG.R.Normal(chips)
+R_Rb6           Rb6(1=0 2=C ) CN @EXP 4.SCHEMATIC1(sch_1):INS846@ANALOG.R.Normal(chips)
+V_V1            V1(+=N00913 -=0 ) CN @EXP 4.SCHEMATIC1(sch_1):INS871@SOURCE.VDC.Normal(chips)
+_    _(b=0)
+_    _(a=A)
+_    _(c=C)
+.ENDALIASES
